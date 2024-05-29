@@ -1,0 +1,18 @@
+Week 1
+HTML and CSS are the foundational languages of web design. This time, I chose to write the code myself instead of relying on ready-made templates like Bootstrap. While understanding templates is one thing, effectively applying them can be challenging. By writing my code and troubleshooting issues along the way, I gained a deeper understanding of code structure and management. I opted for a single-page design with multiple sections, using "id" attributes for clickable navigation. However, I found that this method only allowed the target area to top-align, not center-align. I learned that achieving a centered effect requires a combination of CSS and JavaScript, which I omitted for now as my focus was more on design concepts.
+
+In CSS, I utilized responsive design techniques with the "@media" rule to ensure the website adapts to different display devices. During this process, I discovered that on smaller screens, the top navigation bar was incomplete. To address this, I added a "menu" button as an alternative, though I didn't expand on this feature with CSS and JavaScript for the time being.
+
+Career/Employability/Learning Insights
+This practical exercise underscored the importance of understanding web design principles, particularly in making users quickly and intuitively grasp my startup business. With no prior experience in this area, I drew inspiration from exemplary websites, such as Apple's, to learn from their layout and design. Although I didn't delve deeply into the functionality of the code—a task typically handled by front-end developers—as an aspiring back-end engineer, I recognized the significance of design thinking.
+
+In today's landscape, numerous low-code tools allow individuals with minimal coding skills to create functional websites. This exercise also highlighted the importance of combining theoretical knowledge with practical application. I realized that watching educational resources can only take you so far; hands-on experience is crucial for truly understanding and mastering web design.
+
+Reflection on My Journey
+Embarking on this journey to create a basic flower shop website has been a significant learning experience. By stepping out of my comfort zone and writing the code myself, I gained valuable insights into the intricacies of web design. This project has not only enhanced my technical skills but also broadened my perspective on the importance of user-friendly design and responsiveness. Moving forward, I plan to continue exploring and integrating more advanced features, including JavaScript enhancements, to further refine my web development abilities.
+
+
+
+
+
+
