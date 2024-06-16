@@ -1,0 +1,18 @@
+Learning Journal for Week 4
+Learning Activities & Resources:
+Following the tutorial course, I opted for XAMPP as my local development environment. XAMPP offers a comprehensive package that includes Apache, MySQL, PHP, and Perl. Its widespread use and robust community support gave me confidence in its reliability and the availability of resources for troubleshooting.
+
+Estimated Hours:
+Approximately 3 hours
+
+Content Insights:
+While exploring different local development environments, I also considered WAMP and Docker. WAMP is a popular choice, particularly for Windows users, but I found XAMPP to provide a more user-friendly experience. Docker, though highly powerful and versatile, has a steeper learning curve and is better suited for complex development projects, which exceeded my current needs. Ultimately, XAMPP's cross-platform compatibility and straightforward setup process made it the best choice for my project requirements.
+
+Career/Employability/Learning Insights:
+Setting up a local development environment has been a valuable learning experience. It has allowed me to experiment with WordPress features without the limitations of an online environment. In the future, I plan to learn how to deploy a local WordPress site to a live server, which is a crucial skill for my career in web development.
+
+
+
+
+
+
