@@ -1,15 +1,32 @@
-Learning Journal for Week 4
-Learning Activities & Resources:
-Following the tutorial course, I opted for XAMPP as my local development environment. XAMPP offers a comprehensive package that includes Apache, MySQL, PHP, and Perl. Its widespread use and robust community support gave me confidence in its reliability and the availability of resources for troubleshooting.
+d = input("请输入一个十位整数: ")
 
-Estimated Hours:
-Approximately 3 hours
+# Ensure the input is a 10-digit number
+if len(d) != 10 or not d.isdigit():
+    print("输入的不是一个十位整数")
+else:
+    # 1. Reverse the input string
+    reversed_d = d[::-1]
+    print("逆序输出字符串:", reversed_d)
 
-Content Insights:
-While exploring different local development environments, I also considered WAMP and Docker. WAMP is a popular choice, particularly for Windows users, but I found XAMPP to provide a more user-friendly experience. Docker, though highly powerful and versatile, has a steeper learning curve and is better suited for complex development projects, which exceeded my current needs. Ultimately, XAMPP's cross-platform compatibility and straightforward setup process made it the best choice for my project requirements.
+    # 2. Check if d is a palindrome
+    if d == reversed_d:
+        print(f"{d} 是回文数")
+    else:
+        print(f"{d} 不是回文数")
 
-Career/Employability/Learning Insights:
-Setting up a local development environment has been a valuable learning experience. It has allowed me to experiment with WordPress features without the limitations of an online environment. In the future, I plan to learn how to deploy a local WordPress site to a live server, which is a crucial skill for my career in web development.
+    # 3. Convert d to a list of integers
+    L = [int(char) for char in d]
+    print("转换为列表 L:", L)
+
+    # 4. Extract the three largest values from the list
+    largest_three = sorted(L, reverse=True)[:3]
+    print("列表中最大的三个值:", largest_three)
+
+    # 5. Compute the sum and average of the ten integers
+    total_sum = sum(L)
+    average = total_sum / len(L)
+    print("这十个整数的总和:", total_sum)
+    print("这十个整数的平均值:", average)
 
 
 
